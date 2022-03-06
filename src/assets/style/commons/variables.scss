@@ -1,0 +1,25 @@
+// COLORS
+$primary-cyan: hsl(193, 38%, 86%);
+$primary-green: hsl(150, 100%, 66%);
+$grey-blue: hsl(217, 19%, 38%);
+$dark-blue: hsl(217, 19%, 24%);
+$darkest-blue: hsl(218, 23%, 16%);
+
+// MIXIN
+@mixin mobile {
+  @media (max-width: 600px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin small-desktop {
+  @media (max-width: 1440px) {
+    @content;
+  }
+}

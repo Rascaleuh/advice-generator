@@ -1,0 +1,13 @@
+@import './variables';
+@import './reset';
+
+html {
+  font-size: 28px;
+  font-family: 'Manrope', sans-serif;
+  background-color: $darkest-blue;
+  color: $primary-cyan;
+}
+
+* {
+  box-sizing: border-box;
+}
